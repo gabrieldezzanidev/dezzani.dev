@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px;
+    margin: auto;
+    background-color:blueviolet;
+    justify-content: space-between;
+    color: #e2dfdf;
+    font-size: 24px;
+}
+
+header,
+h2,
+h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header li {
+    padding: 16px;
+    display: inline;
+    margin: auto;
+    font-size: 18px;
+}
+
+header li a{
+    color: #e2dfdf;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li a:hover{
+    text-decoration:underline;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+.container img {
+    padding: 16px;
+    margin-right: auto;
+}
