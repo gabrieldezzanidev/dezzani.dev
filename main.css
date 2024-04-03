@@ -6,12 +6,16 @@
 
 
 header{
-    padding: 30px;
+    padding: 5px;
     margin: auto;
     background-color: rgb(50, 3, 83);
     justify-content: space-between;
     color: #e2dfdf;
     font-size: 24px;
+}
+
+h1{
+    margin-left: 30px;
 }
 
 header,p {
@@ -48,6 +52,10 @@ section .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.links ul{
+    margin-left: 100px ;
 }
 
 section .container{
@@ -100,4 +108,14 @@ h2, h3{
 
 .title h2{
     font-size: 30px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    left: 250px;
 }
