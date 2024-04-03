@@ -4,22 +4,25 @@
     box-sizing: border-box;
 }
 
+
 header{
     padding: 30px;
     margin: auto;
-    background-color:blueviolet;
+    background-color: rgb(50, 3, 83);
     justify-content: space-between;
     color: #e2dfdf;
     font-size: 24px;
 }
 
-header,
-h2,
-h3 {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+header,p {
+    font-family: "Space Grotesk", cursive;
+    font-weight: normal;
+}
+
+section .container h2,
+h3{
+    font-family: "Bungee", cursive;
+    font-weight: normal;
 }
 
 header li {
@@ -40,11 +43,17 @@ header li a{
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+section .container{
+    align-items: flex-start;
+}
+
 header li a:hover{
     text-decoration:underline;
 }
@@ -55,10 +64,40 @@ h1{
 
 .negrito{
     font-weight: bold;
+    color: rgb(168, 104, 227);
 }
 
 
 .container img {
     padding: 16px;
-    margin-right: auto;
+    margin: 16px;
+}
+
+
+section .container h2{
+    padding-top: 20px ;
+}
+
+section .linguagens img{
+    width: 70px;
+    height: auto;
+}
+
+section li{
+    align-items: center;
+    display: inline;
+}
+
+h2, h3{
+    color: rgb(50, 3, 83) ;
+}
+
+.title {
+    padding: 16px;
+    margin: 0 auto;
+}
+
+
+.title h2{
+    font-size: 30px;
 }
