@@ -18,13 +18,14 @@ h1{
     margin-left: 30px;
 }
 
-header,p {
+header,p,
+input, textarea {
     font-family: "Space Grotesk", cursive;
     font-weight: normal;
 }
 
 section .container h2,
-h3{
+h3, button{
     font-family: "Bungee", cursive;
     font-weight: normal;
 }
@@ -54,12 +55,12 @@ section .container {
     align-items: center;
 }
 
-.links ul{
-    margin-left: 100px ;
-}
-
 section .container{
     align-items: flex-start;
+}
+
+section {
+    padding: 24px;   
 }
 
 header li a:hover{
@@ -82,11 +83,8 @@ h1{
 }
 
 
-section .container h2{
-    padding-top: 20px ;
-}
-
-section .linguagens img{
+section .linguagens img,
+section .sociais img{
     width: 70px;
     height: auto;
 }
@@ -151,3 +149,21 @@ form button {
     border: none;
     cursor: pointer;
 }
+
+form button:hover {
+    background-color: rgb(70, 3, 117);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sociais {
+    margin-left: 30px;
+}
+
+.sociais li a{
+    text-decoration: none;
+}
+
