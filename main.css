@@ -119,3 +119,35 @@ h1{
     position: absolute;
     left: 250px;
 }
+
+.contact{
+    display: block;
+    justify-content: space-between;
+}
+
+form,
+.contact h3{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: rgb(50, 3, 83);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
