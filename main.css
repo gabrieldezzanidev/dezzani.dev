@@ -19,7 +19,7 @@ h1{
 }
 
 header,p,
-input, textarea {
+input, textarea, .adress{
     font-family: "Space Grotesk", cursive;
     font-weight: normal;
 }
@@ -160,10 +160,35 @@ form button:hover {
 }
 
 .sociais {
-    margin-left: 30px;
+    margin-left: 150px;
 }
 
 .sociais li a{
     text-decoration: none;
 }
+
+.adress {
+    display: inline;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.adress a{
+    margin-left: 32px;
+    color: black;
+}
+
+
+footer{ 
+    background-color: rgb(50, 3, 83);
+    color: #fff;
+    padding: 24px;
+    margin: auto
+}
+
+footer p{
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+}
+
 
